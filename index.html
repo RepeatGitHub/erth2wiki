@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html style="background: linear-gradient(180deg, rgba(0,97,255,1) 0%, rgba(39,149,255,1) 100%);">
+<html><!-- style="background: linear-gradient(180deg, rgba(0,97,255,1) 0%, rgba(39,149,255,1) 100%);"-->
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>erth2 Wiki (Unofficial)</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet" type="text/css" />
-</head>
+<!--this here should be included at the top of every page-->
+<script src="jquery.js"></script> 
+<script> 
+$(function(){
+$("#includedContent").load("styling.html"); 
+});
+</script>
+<div id="includedContent"></div>
+<!--bottom of included part-->
+    
+<!--<head>-->
+<title>erth2 Wiki (Unofficial)</title>
+<!--</head>-->
 
 <body>
     <p style="font-size: 25pt;">erth2 Wiki</p>
@@ -23,5 +27,4 @@
     teal, blue, blurple, magenta, pink!
     -->
 </body>
-
 </html>
